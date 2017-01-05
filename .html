@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Seguidores facebook y Google</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400italic,400,500,500italic,700,700italic,900%7CMaterial+Icons' rel='stylesheet' type='text/css'/>
+<style>
+body {
+  background-color:;
+  margin:0;
+  padding:0;
+  color:#212121;
+  font-family: Roboto, Arial, sans-serif;
+  font-size:15px;
+}
+#flotante1 {
+position:fixed;
+top:100px;
+right:-250px;
+float:right;
+width:288px;
+display:block;
+padding:0;
+z-index:1002;
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+}
+#flotante2 {
+position:fixed;
+top:240px;
+right:-250px;
+float:right;
+width:288px;
+display:block;
+padding:0;
+z-index:1003;
+border-radius:10px;
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+}
+#flotante1:hover, #flotante2:hover, #flotante3:hover {
+right:0px;
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+}
+div.likeboxwrap {
+margin-top:-5px;
+margin-left:-45px;
+width:238px;
+height:325px;
+background-color:#fff;
+overflow:hidden;
+border-radius:10px;
+}
+</style>
+</head>
+<body>
+
+ <div id='fb-root'/>
+<script>
+//<![CDATA[
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//]]>
+</script>
+
+<div id='flotante1'>
+<img src='http://lh3.googleusercontent.com/-vq69jjHi_aA/UKxnEYWptDI/AAAAAAAADdU/1bjiSBYnRSo/fb_tab.png' style='float:left;'/>
+<div style='background: #3c5a98; height:325px; margin-left:38px;padding: 8px 5px 0pt 50px;border-radius: 0px 0px 0px 10px;'>
+<span>
+<div class='likeboxwrap'>
+<div class="fb-page" data-href="https://www.facebook.com/miecuadorturistico" data-width="298" data-height="248" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/miecuadorturistico"><a href="https://www.facebook.com/miecuadorturistico">Ecuador Turístico</a></blockquote></div></div>
+</div></span></div></div>
+
+<!-- Segunda pestaña -->
+<div id='flotante2'>
+<img src='http://lh6.googleusercontent.com/-vQ5RYEg0TVU/UOCXFfh4mZI/AAAAAAAADz4/kWTI9_MxfPE/s159/goo_tab.png' style='float:left;'/>
+<div style='background: #9A9FA8; height:325px; margin-left:38px;padding: 8px 5px 0pt 50px;border-radius: 0px 0px 0px 10px;'><span><div class='likeboxwrap' style="padding-left:20px; padding-top:15px; height:310px !important;">
+
+<div class="g-plus" data-action="followers" data-height="300" data-href="https://plus.google.com/109993546188820326294" data-source="blogger:blog:followers" data-width="240">
+</div>
+<script type="text/javascript">
+(function() {
+window.___gcfg = {'lang': 'es'};
+var po = document.createElement('script');
+po.type = 'text/javascript';
+po.async = true;
+po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(po, s);
+})();
+</script>
+
+</div></span></div></div>
+
+</body>
+</html>
